@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding-top: 4rem;
+  color: #333;
+  font-family: var(--font-first);
+  --font-first: 'Roboto', Helvetica, Arial, sans-serif;
+  --font-second: 'Spectral', georgia, sans-serif;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body p {
+  margin: 0;
+}
+
+body ul,
+body li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body img {
+  display: block;
+  max-width: 100%;
+}
+
+body button,
+body input {
+  display: block;
+  color: #333;
+  font-size: 1rem;
+  font-family: var --font-first;
+}
+
+body a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=App.css.map */

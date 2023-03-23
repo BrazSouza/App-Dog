@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding-top: 4rem;
+	color: #333;
+	font-family: var(--font-first);
+	--font-first: 'Roboto', Helvetica, Arial, sans-serif;
+	--font-second: 'Spectral', georgia, sans-serif;
+
+	h1,
+	h2,
+	h3,
+	h4,
+	p {
+		margin: 0;
+	}
+
+	ul,
+	li {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	img {
+		display: block;
+		max-width: 100%;
+	}
+
+	button,
+	input {
+		display: block;
+		color: #333;
+		font-size: 1rem;
+		font-family: var (--font-first);
+	}
+
+	a {
+		text-decoration: none;
+	}
+}
